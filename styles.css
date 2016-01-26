@@ -1,0 +1,22 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.tile {
+  margin:0.5%;
+  height: 150px;
+  width: 20%;
+  background-color: #888;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.tile:hover {
+  background-color: #383;
+}
+
+.tile:nth-of-type(3n) {
+  margin-right: 30% ;
+}
+
