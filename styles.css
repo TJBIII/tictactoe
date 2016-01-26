@@ -12,11 +12,21 @@
   border: 1px solid black;
 }
 
-.tile:hover {
-  background-color: #383;
-}
+
 
 .tile:nth-of-type(3n) {
   margin-right: 30% ;
 }
 
+
+.x {
+  background-image: url(images/x.png);
+  background-size: cover;
+}
+
+
+.o{
+  background-color: white;
+  background-image: url(images/o.png);
+  background-size: cover;
+}
